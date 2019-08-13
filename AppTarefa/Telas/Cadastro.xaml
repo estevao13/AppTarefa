@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AppTarefa.Telas.Cadastro">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="Nome"
+                   TextColor="LightGray"
+                   FontAttributes="Bold" />
+            <Entry x:Name="TxtNome" />
+            <Label Text="Prioridade"
+                   TextColor="LightGray"
+                   FontAttributes="Bold" />
+
+            <StackLayout x:Name="SLPrioridades"
+                         Spacing="10">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="p4.png"/>
+                    <Label Text="Urgente e importante"
+                           TextColor="LightGray"
+                           HorizontalOptions="FillAndExpand" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PrioridadeSelectAction" />
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="p3.png"/>
+                    <Label Text="Urgente e não importante"
+                           TextColor="LightGray"
+                           HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="p2.png"/>
+                    <Label Text="Não urgente e importante"
+                           TextColor="LightGray"
+                           HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="p1.png"/>
+                    <Label Text="Não urgente e não importante"
+                           TextColor="LightGray"
+                           HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+            </StackLayout>
+
+            <Button Text="OK"
+                    HorizontalOptions="End"
+                    BackgroundColor="Blue"
+                    TextColor="White" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

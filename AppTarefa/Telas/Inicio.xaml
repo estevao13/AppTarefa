@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AppTarefa.Telas.Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout BackgroundColor="Blue"
+                         HeightRequest="250">
+                <Label Text="Meu dia"
+                       TextColor="White"
+                       FontSize="24"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand" />
+                <Label Text="Quinta 22/2"
+                       TextColor="White"
+                       HorizontalOptions="Start"
+                       VerticalOptions="End" />
+            </StackLayout>
+
+            <StackLayout x:Name="SLTarefas"
+                         Padding="10"
+                         Spacing="10">
+                <StackLayout Orientation="Horizontal"
+                             Spacing="15">
+                    <Image VerticalOptions="Center"
+                           Source="CheckOff.png" />
+                    <Label VerticalOptions="Center"
+                           HorizontalOptions="FillAndExpand"
+                           Text="Task1" />
+                    <Image VerticalOptions="Center"
+                           Source="p4.png" />
+                    <Image VerticalOptions="Center"
+                           Source="Delete.png" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                             Spacing="15">
+                    <Image VerticalOptions="Center"
+                           Source="CheckOn" />
+                    <StackLayout Spacing="0"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="FillAndExpand">
+                        <Label Text="Task1"
+                               TextColor="Gray" />
+                        <Label Text="Finalizado em 20/01/2018 - 17:00h"
+                               TextColor="LightGray"
+                               FontSize="10" />
+                    </StackLayout>
+                    <Image VerticalOptions="Center"
+                           Source="p2.png" />
+                    <Image VerticalOptions="Center"
+                           Source="Delete.png" />
+                </StackLayout>
+            </StackLayout>
+
+            <Button
+                ImageSource="AddBotao.png"
+                HorizontalOptions="Center"
+                BackgroundColor="Transparent"
+                Clicked="ActionGoCadastro" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

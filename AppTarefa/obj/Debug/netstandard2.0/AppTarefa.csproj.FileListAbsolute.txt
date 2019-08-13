@@ -1,0 +1,13 @@
+/Users/macbook/Projects/AppTarefa/AppTarefa/bin/Debug/netstandard2.0/AppTarefa.deps.json
+/Users/macbook/Projects/AppTarefa/AppTarefa/bin/Debug/netstandard2.0/AppTarefa.dll
+/Users/macbook/Projects/AppTarefa/AppTarefa/bin/Debug/netstandard2.0/AppTarefa.pdb
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/AppTarefa.csprojAssemblyReference.cache
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/Telas/Cadastro.xaml.g.cs
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/Telas/Inicio.xaml.g.cs
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/AppTarefa.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/AppTarefa.AssemblyInfoInputs.cache
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/AppTarefa.AssemblyInfo.cs
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/AppTarefa.dll
+/Users/macbook/Projects/AppTarefa/AppTarefa/obj/Debug/netstandard2.0/AppTarefa.pdb
