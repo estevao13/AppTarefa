@@ -6,17 +6,26 @@
     <ContentPage.Content>
         <StackLayout Padding="20">
             <Label Text="Nome"
-                   TextColor="LightGray"
+                   TextColor="Black"
                    FontAttributes="Bold" />
             <Entry x:Name="TxtNome" />
+
+            <StackLayout HorizontalOptions="FillAndExpand">
+                <BoxView
+                    HeightRequest="10"
+                    BackgroundColor="Black"
+                    Margin="5" />
+            </StackLayout>
+
             <Label Text="Prioridade"
-                   TextColor="LightGray"
+                   TextColor="Black"
                    FontAttributes="Bold" />
 
-            <StackLayout x:Name="SLPrioridades"
+            <StackLayout Margin="10"
+                         x:Name="SLPrioridades"
                          Spacing="10">
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="p4.png"/>
+                    <Image Source="p4.png" />
                     <Label Text="Urgente e importante"
                            TextColor="LightGray"
                            HorizontalOptions="FillAndExpand" />
@@ -26,31 +35,41 @@
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="p3.png"/>
+                    <Image Source="p3.png" />
                     <Label Text="Urgente e não importante"
                            TextColor="LightGray"
                            HorizontalOptions="FillAndExpand" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PrioridadeSelectAction" />
+                    </StackLayout.GestureRecognizers>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="p2.png"/>
+                    <Image Source="p2.png" />
                     <Label Text="Não urgente e importante"
                            TextColor="LightGray"
                            HorizontalOptions="FillAndExpand" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PrioridadeSelectAction" />
+                    </StackLayout.GestureRecognizers>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="p1.png"/>
+                    <Image Source="p1.png" />
                     <Label Text="Não urgente e não importante"
                            TextColor="LightGray"
                            HorizontalOptions="FillAndExpand" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PrioridadeSelectAction" />
+                    </StackLayout.GestureRecognizers>
                 </StackLayout>
             </StackLayout>
 
             <Button Text="OK"
                     HorizontalOptions="End"
                     BackgroundColor="Blue"
-                    TextColor="White" />
+                    TextColor="White"
+                    Clicked="SalvarAction"/>
 
         </StackLayout>
     </ContentPage.Content>

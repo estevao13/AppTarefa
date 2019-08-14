@@ -13,10 +13,11 @@
                        FontSize="24"
                        HorizontalOptions="Center"
                        VerticalOptions="CenterAndExpand" />
-                <Label Text="Quinta 22/2"
+                <Label Text=""
                        TextColor="White"
                        HorizontalOptions="Start"
-                       VerticalOptions="End" />
+                       VerticalOptions="End"
+                       x:Name="DataHoje"/>
             </StackLayout>
 
             <StackLayout x:Name="SLTarefas"

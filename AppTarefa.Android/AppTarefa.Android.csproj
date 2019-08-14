@@ -109,19 +109,19 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\p1.png">
+    <AndroidResource Include="Resources\drawable\1.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\p2.png">
+    <AndroidResource Include="Resources\drawable\2.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\p3.png">
+    <AndroidResource Include="Resources\drawable\3.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\p4.png">
+    <AndroidResource Include="Resources\drawable\4.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

@@ -62,7 +62,8 @@
 /Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/CheckOn.png
 /Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/Delete.png
 /Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/icon.png
-/Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/p1.png
-/Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/p2.png
-/Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/p3.png
-/Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/p4.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/1.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/2.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/3.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/4.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
