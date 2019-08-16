@@ -5518,16 +5518,16 @@ namespace AppTarefa.Droid
 		{
 			
 			// aapt resource value: 0x7F070006
-			public const int 1 = 2131165190;
+			public const int p1 = 2131165190;
 			
 			// aapt resource value: 0x7F070007
-			public const int 2 = 2131165191;
+			public const int p2 = 2131165191;
 			
 			// aapt resource value: 0x7F070008
-			public const int 3 = 2131165192;
+			public const int p3 = 2131165192;
 			
 			// aapt resource value: 0x7F070009
-			public const int 4 = 2131165193;
+			public const int p4 = 2131165193;
 			
 			// aapt resource value: 0x7F07000A
 			public const int abc_ab_share_pack_mtrl_alpha = 2131165194;

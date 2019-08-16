@@ -16,10 +16,10 @@ namespace AppTarefa.Modelos
             SalvarNoProperties(Lista);
         }
 
-        public void Deletar(Tarefa tarefa)
+        public void Deletar(int index)
         {
             Lista = Listagem();
-            Lista.Remove(tarefa);
+            Lista.RemoveAt(index);
             SalvarNoProperties(Lista);
         }
 
@@ -27,6 +27,7 @@ namespace AppTarefa.Modelos
         {
             Lista = Listagem();
             Lista.RemoveAt(index);
+            tarefa.DataFinalizacao = DateTime.Now;
             Lista.Add(tarefa);
             SalvarNoProperties(Lista);
         }
@@ -53,7 +54,7 @@ namespace AppTarefa.Modelos
             if (App.Current.Properties.ContainsKey("Tarefas"))
             {
                 String JsonVal = (String)App.Current.Properties["Tarefas"];
-                JsonConvert.DeserializeObject<List<Tarefa>>(JsonVal);
+                List<Tarefa> Lista = JsonConvert.DeserializeObject<List<Tarefa>>(JsonVal);
                 return Lista;
                 //return (List<Tarefa>)App.Current.Properties["Tarefas"];
             }

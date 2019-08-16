@@ -500,7 +500,9 @@
 /Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/checkon.png
 /Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/delete.png
 /Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/icon.png
-/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/1.png
-/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/2.png
-/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/3.png
-/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/4.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/p1.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/p2.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/p3.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/res/drawable/p4.png
+/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/linksrc/Newtonsoft.Json.dll
+/Users/macbook/Projects/AppTarefa/AppTarefa.Android/obj/Debug/android/assets/Newtonsoft.Json.dll
